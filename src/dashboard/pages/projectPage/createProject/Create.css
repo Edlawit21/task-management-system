@@ -1,0 +1,77 @@
+.head-create {
+  margin: 10px 0 10px 26px;
+}
+
+.create-width {
+  width: 47em;
+  margin-left: 26px;
+  height: 600px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(100, 95, 95, 0.5);
+
+  background-color: white;
+}
+.inside-form {
+  width: 51.3em;
+  margin: 0 auto;
+  padding-top: 18px;
+}
+.describe {
+  margin: -10px 0 10px 16px;
+}
+.date-picker {
+  margin: 77px 17px 0 17px;
+  display: flex;
+  justify-content: space-between;
+}
+.priority-status {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 17px 0 17px;
+}
+.uploder {
+  margin: 15px 0 0 18px;
+}
+
+.create-page {
+  display: flex;
+}
+.other-team {
+  margin: 44px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(100, 95, 95, 0.5);
+  width: 230px;
+  background-color: white;
+  height: 250px;
+}
+.team-plus {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 10px 20px;
+}
+.head-member {
+  margin: 20px 0 10px 20px;
+}
+.lead {
+  margin: 10px 0 10px 20px;
+}
+.team-style {
+  margin: 10px 0 10px 20px;
+}
+.other-team2 {
+  margin: 44px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(100, 95, 95, 0.5);
+  width: 230px;
+  background-color: white;
+  height: 250px;
+  margin-top: 70px;
+}
+
+.other-team2 .head-member {
+  padding-top: 20px;
+}

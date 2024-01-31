@@ -1,0 +1,102 @@
+.box {
+  height: 130px;
+  background: linear-gradient(to right, #8d4bff, #bd3dde);
+}
+/*#bd94ef*/
+.box .content-p-c {
+  display: flex;
+  justify-content: space-between;
+}
+.project {
+  color: white;
+  margin-left: 26px;
+  font-weight: bold;
+  font-size: larger;
+  margin-top: 20px;
+}
+.btn-project {
+  width: 160px;
+  color: #9966cc;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  cursor: pointer;
+  margin-right: 26px;
+  margin-top: 20px;
+}
+.dashboard-cards {
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.common-card {
+  display: flex;
+  flex-direction: column;
+  width: 235px;
+  height: 135px;
+  margin-top: -55px;
+  justify-content: space-around;
+  padding: 24px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.projects-ui-card .frame {
+  display: flex;
+  justify-content: space-between;
+}
+.projects-ui-card.hovered {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+.projects-ui-card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.projects-ui-card .text-wrapper {
+  font-weight: bold;
+  color: gray;
+  font-size: medium;
+  margin-top: 2px;
+}
+
+.projects-ui-card .project-icon {
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.projects-ui-card .briefcase {
+  width: 18px;
+  height: 18px;
+}
+
+.projects-ui-card .div {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.projects-ui-card .text-wrapper-2 {
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.projects-ui-card .frame-2 {
+  display: flex;
+  gap: 8px;
+}
+
+.projects-ui-card .text-wrapper-3 {
+  color: gray;
+  font-weight: bold;
+}
+
+.projects-ui-card .text-wrapper-4 {
+  color: gray;
+  font-size: 13px;
+  margin-top: 3px;
+}

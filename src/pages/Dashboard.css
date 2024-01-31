@@ -1,0 +1,33 @@
+/*.supervisor-container 
+  display: grid;
+  grid-template-columns: 216px 1fr;
+  grid-template-rows: 50px 1fr;
+  height: 100vh;
+  width: 100vw;
+}
+.side {
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+
+.nav {
+  grid-column: 2/3;
+  grid-row: 1/3;
+}
+
+.pages {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  overflow: scroll;
+  overflow-x: hidden;
+  background-color: #f4edfb;
+*/
+
+.ant-layout {
+  width: 100vw !important;
+  height: 100vh !important;
+  margin-bottom: 0 !important;
+}
+.ant-layout-sider {
+  height: 100vh !important;
+}

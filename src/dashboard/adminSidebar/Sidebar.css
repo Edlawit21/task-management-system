@@ -1,0 +1,92 @@
+.sidebar {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.list {
+  list-style: none;
+  padding-top: 20px;
+  cursor: pointer;
+}
+
+.links,
+.sublist-item .sublink {
+  text-decoration: none;
+  color: #545156;
+}
+
+.list .item .row.selected .links,
+.list .item .row.selected .links .anticon,
+.sublist-item .sublink.selected {
+  font-weight: 700;
+  color: #9333ea;
+}
+
+.list .item .links .anticon {
+  margin: 0 10px 0 15px;
+  font-size: 18px;
+  color: #b2a8bc;
+}
+
+.list .item .links:hover .anticon {
+  color: #9333ea;
+}
+
+.list .item .links {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.list .item .links:hover {
+  color: #9333ea;
+  text-shadow: 2px 2px 4px rgba(198, 117, 242, 0.5);
+  font-weight: 500;
+}
+
+.logo {
+  padding-top: 12px;
+
+  color: #9333ea;
+  font-size: x-large;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.sublist {
+  list-style: disc;
+  color: #8d8595;
+}
+
+.sublist-item {
+  padding: 5px;
+  margin-left: 50px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.sublist-item:hover,
+.sublist-item .sublink:hover {
+  color: #9333ea;
+  text-shadow: 2px 2px 4px rgba(198, 117, 242, 0.5);
+  font-weight: 500;
+}
+
+.sublist-item .sublink {
+  text-decoration: none;
+  color: #545156;
+}
+
+.sublist-item .sublink:hover {
+  text-shadow: 2px 2px 4px rgba(198, 117, 242, 0.5);
+  font-weight: 500;
+}
+
+.sublist-item.selected,
+.sublist-item.selected .sublink {
+  color: #9333ea;
+  font-weight: 700;
+}
